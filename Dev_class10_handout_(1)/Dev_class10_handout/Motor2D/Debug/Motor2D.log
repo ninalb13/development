@@ -1,0 +1,27 @@
+﻿  pugixml.cpp
+  j1Window.cpp
+  j1Textures.cpp
+  j1Render.cpp
+  p2Log.cpp
+  j1Timer.cpp
+  j1Scene.cpp
+  j1PerfTimer.cpp
+  j1Pathfinding.cpp
+c:\users\ninalb\desktop\dev_class10_handout_(1)\dev_class10_handout\motor2d\p2point.h(114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  c:\users\ninalb\desktop\dev_class10_handout_(1)\dev_class10_handout\motor2d\p2point.h(110): note: while compiling class template member function 'int p2Point<int>::DistanceTo(const p2Point<int> &) const'
+  c:\users\ninalb\desktop\dev_class10_handout_(1)\dev_class10_handout\motor2d\j1pathfinding.cpp(160): note: see reference to function template instantiation 'int p2Point<int>::DistanceTo(const p2Point<int> &) const' being compiled
+  c:\users\ninalb\desktop\dev_class10_handout_(1)\dev_class10_handout\motor2d\j1pathfinding.h(81): note: see reference to class template instantiation 'p2Point<int>' being compiled
+c:\users\ninalb\desktop\dev_class10_handout_(1)\dev_class10_handout\motor2d\p2point.h(114): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  j1Map.cpp
+c:\users\ninalb\desktop\dev_class10_handout_(1)\dev_class10_handout\motor2d\j1map.cpp(106): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\ninalb\desktop\dev_class10_handout_(1)\dev_class10_handout\motor2d\j1map.cpp(107): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  j1Input.cpp
+  j1Audio.cpp
+  j1App.cpp
+c:\users\ninalb\desktop\dev_class10_handout_(1)\dev_class10_handout\motor2d\j1app.cpp(201): warning C4477: 'sprintf_s' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 5 has type 'uint64'
+  c:\users\ninalb\desktop\dev_class10_handout_(1)\dev_class10_handout\motor2d\j1app.cpp(201): note: consider using '%llu' in the format string
+  c:\users\ninalb\desktop\dev_class10_handout_(1)\dev_class10_handout\motor2d\j1app.cpp(201): note: consider using '%I64u' in the format string
+  j1Main.cpp
+  Generating Code...
+  Motor2D.vcxproj -> C:\Users\ninalb\Desktop\Dev_class10_handout_(1)\Dev_class10_handout\Debug\Development - Class 10.exe
+  Motor2D.vcxproj -> C:\Users\ninalb\Desktop\Dev_class10_handout_(1)\Dev_class10_handout\Debug\Development - Class 10.pdb (Partial PDB)
