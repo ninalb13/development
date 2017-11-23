@@ -6,6 +6,8 @@
 #include "j1Fonts.h"
 #include "j1Input.h"
 #include "j1Gui.h"
+#include "UIElement.h"
+#include "Picture.h"
 
 j1Gui::j1Gui() : j1Module()
 {
@@ -31,8 +33,9 @@ bool j1Gui::Awake(pugi::xml_node& conf)
 // Called before the first frame
 bool j1Gui::Start()
 {
+	iPoint position_ = { 0,0 };
 	atlas = App->tex->Load(atlas_file_name.GetString());
-
+	AddPicture(position_, UIElement::UIType::Picture);
 	return true;
 }
 
@@ -45,6 +48,10 @@ bool j1Gui::PreUpdate()
 // Called after all Updates
 bool j1Gui::PostUpdate()
 {
+	for (p2List_item<Picture*>* iterator = elements.start; iterator != NULL; iterator = iterator->next)
+	{
+		iterator->data->PostUpdate();
+	}
 	return true;
 }
 
@@ -57,14 +64,19 @@ bool j1Gui::CleanUp()
 }
 
 // const getter for atlas
-const SDL_Texture* j1Gui::GetAtlas() const
+SDL_Texture* j1Gui::GetAtlas()
 {
 	return atlas;
 }
 
-void j1Gui::AddElement(iPoint position, UIType type)
+Picture* j1Gui::AddPicture(iPoint position, UIElement::UIType type)
 {
+	Picture* aux = new Picture;
+	aux->position = position;
+	aux->type = type;
 
+	elements.add(aux);
+	return aux;
 }
 
 // class Gui ---------------------------------------------------

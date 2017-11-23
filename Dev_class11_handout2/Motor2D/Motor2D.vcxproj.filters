@@ -55,13 +55,13 @@
     <ClCompile Include="CheckBox.cpp">
       <Filter>Desenvolupament  ========\UI</Filter>
     </ClCompile>
-    <ClCompile Include="Picture.cpp">
-      <Filter>Desenvolupament  ========\UI</Filter>
-    </ClCompile>
     <ClCompile Include="TextBox.cpp">
       <Filter>Desenvolupament  ========\UI</Filter>
     </ClCompile>
     <ClCompile Include="UIElement.cpp">
+      <Filter>Desenvolupament  ========\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture.cpp">
       <Filter>Desenvolupament  ========\UI</Filter>
     </ClCompile>
   </ItemGroup>

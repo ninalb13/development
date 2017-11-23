@@ -1,13 +1,23 @@
-#include "j1Module.h"
-#include "p2Point.h"
-#include "j1Textures.h"
-#include "j1Gui.h"
-
 #ifndef __UIELEMENT_H__
 #define __UIELEMENT_H__
+
+#include "j1Module.h"
+#include "p2Point.h"
+
+struct SDL_Texture;
+
 class UIElement
 {
 public:
+	enum UIType
+	{
+		Button,
+		TextBox,
+		CheckBox,
+		Picture,
+		Label
+	};
+
 	UIElement();
 	~UIElement();
 
@@ -28,7 +38,7 @@ public:
 
 	iPoint position;
 	SDL_Texture* texture;
-	//UIType type;
+	UIType type;
 	float opacity;
 
 };
