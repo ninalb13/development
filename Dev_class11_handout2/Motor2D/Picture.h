@@ -9,6 +9,7 @@ class Picture :
 {
 public:
 	Picture();
+	Picture(int x, int y, SDL_Texture * texture_, UIElement::UIType type, SDL_Rect* rect_);
 	~Picture();
 
 	bool PostUpdate();

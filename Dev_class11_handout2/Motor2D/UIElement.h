@@ -4,7 +4,7 @@
 #include "j1Module.h"
 #include "p2Point.h"
 #include "j1Render.h"
-
+#include "j1Fonts.h"
 struct SDL_Texture;
 class UIElement
 {
@@ -42,8 +42,8 @@ public:
 	bool CleanUp();
 
 
-	iPoint position;
 	SDL_Rect area;
+	//iPoint position;
 	SDL_Texture* texture;
 	UIType type;
 	float opacity;

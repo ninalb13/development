@@ -41,14 +41,20 @@ public:
 
 	SDL_Texture* GetAtlas();
 
-	Picture* AddPicture(iPoint position, UIElement::UIType type);
-	Text* AddText();
-	p2List<Picture*> elements;
+	Picture * AddPicture(int x, int y, SDL_Texture * texture_, UIElement::UIType type, SDL_Rect* rect = NULL);
+	Text* AddText(int x, int y, int size_, const char * path_, SDL_Color color, const char* content, UIElement::UIType type_);
+	p2List<Picture*> pictures;
+	p2List<Text*> text;
+	p2List<UIElement*> elements;
 
 private:
 
 	SDL_Texture* atlas;
+	SDL_Texture* left_logo;
+	SDL_Texture* right_logo;
+	SDL_Texture* ESBR_logo;
 	p2SString atlas_file_name;
+
 
 
 };
