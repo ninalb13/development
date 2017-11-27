@@ -4,6 +4,8 @@
 #include "j1Module.h"
 #include "Picture.h"
 #include "UIElement.h"
+#include "Text.h"
+
 #define CURSOR_WIDTH 2
 
 // TODO 1: Create your structure of classes
@@ -40,7 +42,7 @@ public:
 	SDL_Texture* GetAtlas();
 
 	Picture* AddPicture(iPoint position, UIElement::UIType type);
-
+	Text* AddText();
 	p2List<Picture*> elements;
 
 private:

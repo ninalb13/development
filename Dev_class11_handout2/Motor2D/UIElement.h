@@ -9,10 +9,16 @@ struct SDL_Texture;
 class UIElement
 {
 public:
+	enum Alignment
+	{
+		Right,
+		Left,
+		Centered
+	};
 	enum UIType
 	{
 		Button,
-		TextBox,
+		Text,
 		CheckBox,
 		Picture,
 		Label

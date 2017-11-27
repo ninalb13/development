@@ -55,13 +55,13 @@
     <ClCompile Include="CheckBox.cpp">
       <Filter>Desenvolupament  ========\UI</Filter>
     </ClCompile>
-    <ClCompile Include="TextBox.cpp">
-      <Filter>Desenvolupament  ========\UI</Filter>
-    </ClCompile>
     <ClCompile Include="UIElement.cpp">
       <Filter>Desenvolupament  ========\UI</Filter>
     </ClCompile>
     <ClCompile Include="Picture.cpp">
+      <Filter>Desenvolupament  ========\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
       <Filter>Desenvolupament  ========\UI</Filter>
     </ClCompile>
   </ItemGroup>
@@ -141,10 +141,10 @@
     <ClInclude Include="Picture.h">
       <Filter>Desenvolupament  ========\UI</Filter>
     </ClInclude>
-    <ClInclude Include="TextBox.h">
+    <ClInclude Include="UIElement.h">
       <Filter>Desenvolupament  ========\UI</Filter>
     </ClInclude>
-    <ClInclude Include="UIElement.h">
+    <ClInclude Include="Text.h">
       <Filter>Desenvolupament  ========\UI</Filter>
     </ClInclude>
   </ItemGroup>
