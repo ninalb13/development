@@ -1,18 +1,29 @@
 ﻿  Text.cpp
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\text.h(19): error C2143: syntax error: missing ';' before '*'
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\text.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\text.h(19): error C2238: unexpected token(s) preceding ';'
   Generating Code...
   Compiling...
-  j1Scene.cpp
-c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(95): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(98): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
-c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(101): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(104): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
-  j1Gui.cpp
+  Picture.cpp
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\text.h(19): error C2143: syntax error: missing ';' before '*'
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\text.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\text.h(19): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
+  Compiling...
   j1App.cpp
 c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1app.cpp(217): warning C4018: '<': signed/unsigned mismatch
 c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1app.cpp(213): warning C4477: 'sprintf_s' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 6 has type 'uint64'
   c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1app.cpp(213): note: consider using '%llu' in the format string
   c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1app.cpp(213): note: consider using '%I64u' in the format string
-  Picture.cpp
   Generating Code...
-  Motor2D.vcxproj -> C:\Users\ninalb\Documents\GitHub\development\Dev_class11_handout2\Debug\Development - Class 11 Handout2.exe
-  Motor2D.vcxproj -> C:\Users\ninalb\Documents\GitHub\development\Dev_class11_handout2\Debug\Development - Class 11 Handout2.pdb (Partial PDB)
+  Compiling...
+  j1Scene.cpp
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\text.h(19): error C2143: syntax error: missing ';' before '*'
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\text.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\text.h(19): error C2238: unexpected token(s) preceding ';'
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(95): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(98): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(101): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(104): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+  j1Gui.cpp
+  Generating Code...

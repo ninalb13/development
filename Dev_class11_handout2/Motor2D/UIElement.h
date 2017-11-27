@@ -3,25 +3,25 @@
 
 #include "j1Module.h"
 #include "p2Point.h"
+#include "j1Render.h"
 
 struct SDL_Texture;
-
 class UIElement
 {
 public:
 	enum Alignment
 	{
-		Right,
-		Left,
-		Centered
+		RIGHT,
+		LEFT,
+		CENTERED
 	};
 	enum UIType
 	{
-		Button,
-		Text,
-		CheckBox,
-		Picture,
-		Label
+		BUTTON,
+		TEXT,
+		CHECKBOX,
+		PICTURE,
+		LABEL
 	};
 
 	UIElement();
@@ -43,6 +43,7 @@ public:
 
 
 	iPoint position;
+	SDL_Rect area;
 	SDL_Texture* texture;
 	UIType type;
 	float opacity;

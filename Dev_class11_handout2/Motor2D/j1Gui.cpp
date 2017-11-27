@@ -35,7 +35,7 @@ bool j1Gui::Start()
 {
 	iPoint position_ = { 0,0 };
 	atlas = App->tex->Load(atlas_file_name.GetString());
-	AddPicture(position_, UIElement::UIType::Picture);
+	AddPicture(position_, UIElement::UIType::PICTURE);
 	return true;
 }
 
