@@ -1,2 +1,7 @@
-﻿Text.obj : error LNK2019: unresolved external symbol "public: bool __thiscall j1Render::Blit(struct SDL_Texture *,int,int,struct SDL_Rect const *,float,double,int,int,bool)const " (?Blit@j1Render@@QBE_NPAUSDL_Texture@@HHPBUSDL_Rect@@MNHH_N@Z) referenced in function "public: bool __thiscall Text::PostUpdate(void)" (?PostUpdate@Text@@QAE_NXZ)
-C:\Users\ninalb\Documents\GitHub\development\Dev_class11_handout2\Debug\Development - Class 11 Handout2.exe : fatal error LNK1120: 1 unresolved externals
+﻿  j1Scene.cpp
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(95): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(98): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(101): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\ninalb\documents\github\development\dev_class11_handout2\motor2d\j1scene.cpp(104): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+  Motor2D.vcxproj -> C:\Users\ninalb\Documents\GitHub\development\Dev_class11_handout2\Debug\Development - Class 11 Handout2.exe
+  Motor2D.vcxproj -> C:\Users\ninalb\Documents\GitHub\development\Dev_class11_handout2\Debug\Development - Class 11 Handout2.pdb (Partial PDB)

@@ -16,7 +16,7 @@ public:
 
 	void ChangeImage();
 	SDL_Rect size;
-	SDL_Texture* atlas;
+
 };
 
 #endif

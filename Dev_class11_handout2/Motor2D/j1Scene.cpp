@@ -45,7 +45,7 @@ bool j1Scene::Start()
 	debug_tex = App->tex->Load("maps/path2.png");
 
 	// TODO 3: Create the banner (rect {485, 829, 328, 103}) and the text "Hello World"
-	text = App->gui->AddText( 370, 550 , 50, "fonts/open_sans/OpenSans-Bold.ttf", { 200, 255, 255, 233 }, "HelloWorld", UIElement::UIType::TEXT);
+	text = App->gui->AddText( 370, 550 , 50, "fonts/open_sans/OpenSans-Bold.ttf", { 200, 255, 255, 233 }, "asdfjklñ", UIElement::UIType::TEXT);
 	return true;
 }
 
