@@ -9,6 +9,12 @@ struct SDL_Texture;
 class UIElement
 {
 public:
+	enum Mouse_Events
+	{
+		MOUSE_ENTER,
+		MOUSE_LEAVE,
+		MOUSE_CLICK
+	};
 	enum Alignment
 	{
 		RIGHT,
