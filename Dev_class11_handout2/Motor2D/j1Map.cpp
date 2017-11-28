@@ -31,7 +31,7 @@ void j1Map::Draw()
 	if(map_loaded == false)
 		return;
 
-	p2List_item<MapLayer*>* item = data.layers.start;
+	/*p2List_item<MapLayer*>* item = data.layers.start;
 
 	for(; item != NULL; item = item->next)
 	{
@@ -56,7 +56,8 @@ void j1Map::Draw()
 				}
 			}
 		}
-	}
+	}*/
+	App->render->Blit(background_, 0, 0);
 }
 
 int Properties::Get(const char* value, int default_value) const
@@ -189,8 +190,9 @@ bool j1Map::CleanUp()
 bool j1Map::Load(const char* file_name)
 {
 	bool ret = true;
+	
 	p2SString tmp("%s%s", folder.GetString(), file_name);
-
+	background_ = App->tex->Load("Homework/logonscreen.png");
 	pugi::xml_parse_result result = map_file.load_file(tmp.GetString());
 
 	if(result == NULL)

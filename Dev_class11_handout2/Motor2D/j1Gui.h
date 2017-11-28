@@ -2,24 +2,18 @@
 #define __j1GUI_H__
 
 #include "j1Module.h"
+#include "Picture.h"
 #include "UIElement.h"
-#include "p2Point.h"
-#include "p2SString.h"
+#include "Text.h"
 
 #define CURSOR_WIDTH 2
 
 // TODO 1: Create your structure of classes
-enum UIType
-{
-	Button,
-	TextBox,
-	CheckBox,
-	Picture,
-	Label
-};
+
 // ---------------------------------------------------
 class j1Gui : public j1Module
 {
+
 public:
 
 	j1Gui();
@@ -45,16 +39,22 @@ public:
 	// TODO 2: Create the factory methods
 	// Gui creation functions
 
-	const SDL_Texture* GetAtlas() const;
+	SDL_Texture* GetAtlas();
 
-	void AddElement(iPoint position, UIType type);
-
+	Picture * AddPicture(int x, int y, SDL_Texture * texture_, UIElement::UIType type, SDL_Rect* rect = NULL);
+	Text* AddText(int x, int y, int size_, const char * path_, SDL_Color color, const char* content, UIElement::UIType type_);
+	p2List<Picture*> pictures;
+	p2List<Text*> text;
 	p2List<UIElement*> elements;
 
 private:
 
 	SDL_Texture* atlas;
+	SDL_Texture* left_logo;
+	SDL_Texture* right_logo;
+	SDL_Texture* ESBR_logo;
 	p2SString atlas_file_name;
+
 
 
 };
